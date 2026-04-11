@@ -6,7 +6,7 @@ import { FaHome } from "react-icons/fa";
 export default function UXUI() {
   return (
     <div className="flex h-full">
-      <Link href="/" className=" sm:hidden bg-blue-500 p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
+      <Link href="/" className=" sm:hidden bg-[#7181c8] p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
         <FaHome className="text-white text-xl" />
       </Link>
       <div className="sm:block hidden">
@@ -14,7 +14,17 @@ export default function UXUI() {
       </div>
       <div className="w-full">
         <div className="w-full p-3">
-          <div className="text-gray-800 text-center mt-2 font-bold text-[32px]">‧₊˚.⋆·ฺ.∗̥ UXUI ‧₊˚.⋆·ฺ.∗̥</div>
+          <div className="relative text-center mt-2 font-bold text-[32px] text-gray-800">
+
+            <img
+              src="/sea.jpg"
+              className="absolute inset-0 w-full h-full object-cover rounded-2xl opacity-40 pointer-events-none"
+            />
+
+            <div className="text-[#2a3254] relative z-10">
+              ·ฺ.∗̥ UXUI ·ฺ.∗̥
+            </div>
+          </div>
           <div className="text-gray-700 text-center mt-2 text-[16px] ">
             透過使用者需求分析與介面優化，提升整體操作體驗，並強化資訊傳遞的清晰度與互動性。
           </div>

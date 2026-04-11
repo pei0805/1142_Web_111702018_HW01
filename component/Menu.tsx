@@ -8,10 +8,10 @@ import { FiYoutube } from "react-icons/fi";
 export default function Menu() {
   return (
     <>
-      <div className="min-h-screen flex items-start justify-center md:items-center px-4 pt-10">
+      <div className="min-h-screen flex items-start justify-center px-4 pt-10">
         <div className="bg-white w-[320px] h-full p-4">
 
-          <Link href="/" className="sm:hidden bg-blue-500 p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
+          <Link href="/" className="sm:hidden bg-[#7181c8] p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
             <FaHome className="text-white text-xl" />
           </Link>
 
@@ -44,16 +44,16 @@ export default function Menu() {
           </div>
 
           <Link href="/about">
-            <div className="bg-blue-100 p-[24px] mt-3 font-bold rounded-md flex justify-center items-center 
-                  transition-colors duration-200 hover:bg-blue-200
+            <div className="bg-[#b7d3f4] p-[24px] mt-3 font-bold rounded-md flex justify-center items-center 
+                  transition-colors duration-200 hover:bg-[#7181c8] hover:text-white
    ">
               ‧₊˚.⋆·ฺ.∗̥ ABOUT ME ‧₊˚.⋆·ฺ.∗̥
             </div>
           </Link>
 
           <Link href="/uxui">
-            <div className="bg-blue-100 p-[24px] mt-3 font-bold  rounded-md flex justify-center items-center 
-                  transition-colors duration-200 hover:bg-blue-200
+            <div className="bg-[#b7d3f4] p-[24px] mt-3 font-bold  rounded-md flex justify-center items-center 
+                  transition-colors duration-200 hover:bg-[#7181c8] hover:text-white
   ">
 
               ‧₊˚.⋆·ฺ.∗̥ UXUI ‧₊˚.⋆·ฺ.∗̥
@@ -61,16 +61,16 @@ export default function Menu() {
           </Link>
 
           <Link href="/design">
-            <div className="bg-blue-100 p-[24px] mt-3 font-bold rounded-md flex justify-center items-center 
-                  transition-colors duration-200 hover:bg-blue-200 
+            <div className="bg-[#b7d3f4] p-[24px] mt-3 font-bold rounded-md flex justify-center items-center 
+                  transition-colors duration-200 hover:bg-[#7181c8] hover:text-white
   ">
               ‧₊˚.⋆·ฺ.∗̥ Design ‧₊˚.⋆·ฺ.∗̥
             </div>
           </Link>
 
           <Link href="/work">
-            <div className="bg-blue-100 p-[24px] mt-3 font-bold rounded-md flex justify-center items-center 
-                  transition-colors duration-200 hover:bg-blue-200 
+            <div className="bg-[#b7d3f4] p-[24px] mt-3 font-bold rounded-md flex justify-center items-center 
+                  transition-colors duration-200 hover:bg-[#7181c8] hover:text-white
   ">
 
               ‧₊˚.⋆·ฺ.∗̥ Exhibition ‧₊˚.⋆·ฺ.∗̥

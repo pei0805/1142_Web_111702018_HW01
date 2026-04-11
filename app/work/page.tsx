@@ -7,15 +7,25 @@ export default function work() {
   return (
     <>
       <div className="flex h-full">
-      <Link href="/" className=" sm:hidden bg-blue-500 p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
-        <FaHome className="text-white text-xl" />
-      </Link>
+        <Link href="/" className=" sm:hidden bg-[#7181c8] p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
+          <FaHome className="text-white text-xl" />
+        </Link>
         <div className="sm:block hidden">
           <Menu />
         </div>
         <div className="w-full">
           <div className="w-full p-3">
-            <div className="text-gray-800 text-center mt-2 font-bold text-[32px] ">‧₊˚.⋆·ฺ.∗̥ Exhibition ‧₊˚.⋆·ฺ.∗̥</div>
+            <div className="relative text-center mt-2 font-bold text-[32px] text-gray-800">
+
+              <img
+                src="/sea.jpg"
+                className="absolute inset-0 w-full h-full object-cover rounded-2xl opacity-40 pointer-events-none"
+              />
+
+              <div className="text-[#2a3254] relative z-10">
+                ·ฺ.∗̥ Exhibition ·ฺ.∗̥
+              </div>
+            </div>
             <div className="text-gray-800 text-center mt-2 text-[16px] ">一些參與過的展</div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2 px-4 ">
 

@@ -32,7 +32,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         
-        <div className="w-screen h-screen overflow-y-auto flex flex-col sm:flex-row gap-5 bg-blue-100 p-8">
+        <div className="w-screen h-screen overflow-y-auto flex flex-col sm:flex-row gap-5 bg-[url('/background.jpg')] bg-center bg-cover bg-no-repeat p-8">
           {/* 左邊 */}
           
           {/* 右邊 */}

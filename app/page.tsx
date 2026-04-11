@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex h-full w-full">
 
 
-        <Link href="/" className=" sm:hidden bg-blue-500 p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
+        <Link href="/" className=" sm:hidden bg-[#7181c8] p-3 rounded-full inline-flex items-center justify-center fixed top-12 left-12 z-9999">
           <FaHome className="text-white text-xl" />
         </Link>
         <div>
