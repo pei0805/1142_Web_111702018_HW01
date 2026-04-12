@@ -30,7 +30,7 @@ export default function About() {
 
 
             <div className="flex flex-col sm:flex-row gap-10 mt-6 px-4">
-              <div className="w-1/2 ">
+              <div className="w-full sm:w-1/2">
                 <div className="text-[#4f5a8d] font-bold text-[20px]">Education</div>
                 <div className="p-2">
                   <ul className="list-outside list-disc space-y-2 pl-5 text-[16px] leading-relaxed text-gray-700">
@@ -65,7 +65,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="w-1/2">
+              <div className="w-full sm:w-1/2">
                 <div className="text-[#4f5a8d] font-bold text-[20px]">Experience</div>
                 <div className="p-2">
                   <div className="text-gray-800 font-bold text-[16px]">職途有限公司（實習通）行銷與設計</div>
